@@ -1,0 +1,57 @@
+[
+    {
+        "quizSerial": 1,
+        "question": "In which direction does the sunrise?",
+        "answers": [
+            "West",
+            "North",
+            "East",
+            "South"
+        ],
+        "correct": "East"
+    },
+    {
+        "quizSerial": 2,
+        "question": "How many zeros are there in One Hundred Thousand?",
+        "answers": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+        ],
+        "correct": "Five"
+    },
+    {
+        "quizSerial": 3,
+        "question": "Which animal is known as the 'Ship of the Desert'?",
+        "answers": [
+            "Camel",
+            "Lion",
+            "Snake",
+            "Eagle"
+        ],
+        "correct": "Camel"
+    },
+    {
+        "quizSerial": 4,
+        "question": "How many years are there in a century?",
+        "answers": [
+            "Twelve",
+            "Four",
+            "One Thousand",
+            "One Hundred"
+        ],
+        "correct": "One Hundred"
+    },
+    {
+        "quizSerial": 5,
+        "question": "What is the standard taste of the water?",
+        "answers": [
+            "Sweet",
+            "Water is tasteless",
+            "Spicy",
+            "Sour"
+        ],
+        "correct": "Water is tasteless"
+    }
+]
