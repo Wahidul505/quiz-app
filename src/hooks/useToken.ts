@@ -5,7 +5,7 @@ const useToken = (user: any, name?: string) => {
     useEffect(() => {
         const email = user?.user?.email;
         if (email && name) {
-            fetch(`http://localhost:5000/user?email=${email}&name=${name}`, {
+            fetch(`https://quizzz-app-server.herokuapp.com/user?email=${email}&name=${name}`, {
                 method: 'PUT',
                 headers: {
                     'content-type': 'application/json'

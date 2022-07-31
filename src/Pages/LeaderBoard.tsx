@@ -5,7 +5,7 @@ import '../App.css';
 const LeaderBoard = () => {
     const [users, setUsers] = useState<UserType[]>();
     useEffect(() => {
-        fetch('http://localhost:5000/user')
+        fetch('https://quizzz-app-server.herokuapp.com/user')
             .then(res => res.json())
             .then(data => {
                 const quizUsers = data.filter((user: UserType) => user.score);

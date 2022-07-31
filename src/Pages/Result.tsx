@@ -10,7 +10,7 @@ const Result = () => {
     const [userScore, setUserScore] = useState<number | undefined>();
     const navigate = useNavigate();
     useEffect(() => {
-        fetch(`http://localhost:5000/user/${user?.email}`, {
+        fetch(`https://quizzz-app-server.herokuapp.com/user/${user?.email}`, {
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
             }

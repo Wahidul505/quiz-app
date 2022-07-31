@@ -22,7 +22,7 @@ const Quiz = () => {
 
     const navigate = useNavigate();
     useEffect(() => {
-        fetch(`http://localhost:5000/quiz/${serial}`, {
+        fetch(`https://quizzz-app-server.herokuapp.com/quiz/${serial}`, {
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
             }
@@ -50,7 +50,7 @@ const Quiz = () => {
     const handleSubmit = async () => {
         const scoreArray = [...score];
         const totalScore = scoreArray.reduce((previous, next) => previous + next, 0)
-        await fetch(`http://localhost:5000/user-score?email=${user?.email}&score=${totalScore}`, {
+        await fetch(`https://quizzz-app-server.herokuapp.com/user-score?email=${user?.email}&score=${totalScore}`, {
             method: 'PUT',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
